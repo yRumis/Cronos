@@ -1,0 +1,11 @@
+.heading {
+  background: rgb(144, 144, 255);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 2.4rem;
+  width: 98vw;
+  opacity: 0.7;
+}
