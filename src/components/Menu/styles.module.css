@@ -1,0 +1,26 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 4.0rem;
+  gap: 1.6rem;
+}
+.menuLink{
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  gap: 0.1rem;
+  color: rgb(255, 243, 245);
+  transition: all 0.3s ease-in-out;
+  background: var(--back-color);
+  border-radius: 10px;
+  padding: 0.6rem;
+}
+
+.menuLink:hover{
+  color: rgb(183, 61, 81);
+}
+.menuLink svg{
+  width: 3.4rem;
+  height: 3.4rem;
+}

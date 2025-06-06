@@ -1,5 +1,5 @@
 :root {
-  --primary: pink;
+  --primary: rgba(127, 127, 248, 0.62);
   --back-color: #fea3e4;
   --text-default: white;
 }
