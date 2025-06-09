@@ -23,6 +23,16 @@ body {
   justify-content: center;
 }
 
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+
 .formRow{
   display: flex;
   flex-direction: column;
@@ -31,12 +41,3 @@ body {
   gap: 1rem;
 }
 
-.form{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  width: 100%;
-  max-width: 40rem;
-}
