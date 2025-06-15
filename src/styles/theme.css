@@ -1,5 +1,15 @@
-:root {
+html[data-theme="light"] body{
   --primary: rgba(151, 151, 226, 0.62);
   --back-color: #fea3e4;
   --text-default: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/9999.JPG");
+    background-size: cover;
+    background-position: center;
 }
+/* 
+:root{
+  --primary: rgba(151, 151, 226, 0.62);
+  --back-color: #fea3e4;
+  --text-default: white;
+} */
