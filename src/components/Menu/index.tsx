@@ -1,6 +1,6 @@
 import { ClockFading, HistoryIcon, SettingsIcon, SunIcon } from "lucide-react";
 import styles from "./styles.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export function Menu() {
 
@@ -16,6 +16,10 @@ export function Menu() {
       return newTheme;
     })
   }
+
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+  }, [theme]);
   return (
     
     <>
@@ -40,7 +44,7 @@ export function Menu() {
           <SettingsIcon />
         </a>
 
-         <a href="#" className={styles.menuLink}
+         <a href="#" className={styles.menuOnly}
           aria-label="mudar tema"
           title="mudar tema"
           onClick={(e) => {handleThemeChange(e)}}>

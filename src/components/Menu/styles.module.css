@@ -24,3 +24,19 @@
   width: 3.4rem;
   height: 3.4rem;
 }
+.menuOnly{
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  gap: 0.1rem;
+  background: rgb(224, 105, 174);
+  border-radius: 10px;
+  padding: 0.6rem;
+}
+
+.menuOnly svg{
+  width: 3.4rem;
+  height: 3.4rem;
+}
+
