@@ -8,7 +8,7 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
   --primary: rgba(151, 151, 226, 0.62);
-  --back-color: #7c2ba1;
+  --back-color: #9b68b3;
   --text-default: white;
 }
 
@@ -24,6 +24,7 @@ body {
     background-position: center;
     height: 100vh;
     justify-content: center;
+    padding: 2rem;
 }
 
 .form{
