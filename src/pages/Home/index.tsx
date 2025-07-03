@@ -4,13 +4,13 @@ import { Mainform } from "../../components/Mainform";
 import type { TaskStateModel } from "../../models/TaskStateModel";
 import { MainTemplate } from "../../templates/MainTemplate";
 
-type HomeProps = {
-  state: TaskStateModel,
-  setState: React.Dispatch<React.SetStateAction<TaskStateModel>>;
-};
+// type HomeProps = {
+//   state: TaskStateModel,
+//   setState: React.Dispatch<React.SetStateAction<TaskStateModel>>;
+// };
 
-export function Home(props: HomeProps) {
-  const { state, setState } = props;
+export function Home() {
+  // const { state, setState } = props;
   return (
     <MainTemplate>
           <Container>
