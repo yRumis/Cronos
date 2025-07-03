@@ -25,7 +25,7 @@ export function Mainform() {
           </div>
 
           <div className="formRow">
-           <DefaultButton icon={<PlayCircleIcon/>} color="red" />
+           <DefaultButton icon={<PlayCircleIcon/>}  />
           </div>
         </form>
   );
