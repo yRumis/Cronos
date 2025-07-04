@@ -4,8 +4,12 @@ import { DefaultButton } from "../DefaultButton";
 import { DefaultInput } from "../DefaultInput";
 
 export function Mainform() {
+
+  const handleCreatNewTask = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+  };
   return (
-    <form action="" className="form">
+    <form onSubmit={handleCreatNewTask} action="" className="form">
           <div className="formRow">
             <DefaultInput 
             id='meuInput' 
